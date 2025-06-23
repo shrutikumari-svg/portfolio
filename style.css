@@ -144,13 +144,18 @@ html {
 /* Responsive */
 @media (max-width: 768px) {
   .hero {
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
+    background-position: 80% center; /* move focus to the right */
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .hero-content {
-    text-align: left;
+    text-align: center;
   }
+
+
 
   .section-container {
     flex-direction: column;
